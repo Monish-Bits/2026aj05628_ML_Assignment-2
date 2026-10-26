@@ -1,0 +1,97 @@
+{
+  "dataset": "Predict Students' Dropout and Academic Success (UCI id 697)",
+  "target": "Target",
+  "classes": [
+    "Dropout",
+    "Enrolled",
+    "Graduate"
+  ],
+  "feature_columns": [
+    "Marital Status",
+    "Application mode",
+    "Application order",
+    "Course",
+    "Daytime/evening attendance",
+    "Previous qualification",
+    "Previous qualification (grade)",
+    "Nacionality",
+    "Mother's qualification",
+    "Father's qualification",
+    "Mother's occupation",
+    "Father's occupation",
+    "Admission grade",
+    "Displaced",
+    "Educational special needs",
+    "Debtor",
+    "Tuition fees up to date",
+    "Gender",
+    "Scholarship holder",
+    "Age at enrollment",
+    "International",
+    "Curricular units 1st sem (credited)",
+    "Curricular units 1st sem (enrolled)",
+    "Curricular units 1st sem (evaluations)",
+    "Curricular units 1st sem (approved)",
+    "Curricular units 1st sem (grade)",
+    "Curricular units 1st sem (without evaluations)",
+    "Curricular units 2nd sem (credited)",
+    "Curricular units 2nd sem (enrolled)",
+    "Curricular units 2nd sem (evaluations)",
+    "Curricular units 2nd sem (approved)",
+    "Curricular units 2nd sem (grade)",
+    "Curricular units 2nd sem (without evaluations)",
+    "Unemployment rate",
+    "Inflation rate",
+    "GDP"
+  ],
+  "nominal_columns": [
+    "Marital Status",
+    "Application mode",
+    "Course",
+    "Previous qualification",
+    "Nacionality",
+    "Mother's qualification",
+    "Father's qualification",
+    "Mother's occupation",
+    "Father's occupation"
+  ],
+  "models": {
+    "logistic_regression": "Logistic Regression",
+    "decision_tree": "Decision Tree",
+    "knn": "KNN",
+    "naive_bayes": "Naive Bayes",
+    "svm": "Support Vector Machine"
+  },
+  "best_params": {
+    "logistic_regression": {
+      "C": 0.1,
+      "class_weight": "balanced"
+    },
+    "decision_tree": {
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "min_samples_leaf": 20
+    },
+    "knn": {
+      "n_neighbors": 5,
+      "p": 1,
+      "weights": "uniform"
+    },
+    "naive_bayes": {
+      "var_smoothing": 0.1
+    },
+    "svm": {
+      "C": 10.0,
+      "class_weight": "balanced",
+      "gamma": 0.01
+    }
+  },
+  "split": {
+    "test_fraction": 0.2,
+    "random_state": 2026,
+    "train_rows": 3539,
+    "test_rows": 885
+  },
+  "averaging": "macro (Precision/Recall/F1), one-vs-rest macro (AUC)"
+}

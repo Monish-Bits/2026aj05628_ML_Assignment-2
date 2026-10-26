@@ -1,0 +1,12 @@
+# Versions pinned to the environment the models were trained in, so the
+# saved .joblib pipelines unpickle identically on Streamlit Community Cloud.
+# Python 3.11 is required.
+streamlit==1.66.1
+scikit-learn==1.9.0
+numpy==2.4.6
+pandas==3.0.3
+matplotlib==3.11.1
+seaborn==0.13.2
+joblib==1.6.0
+# only used by train_models.py to download the dataset if data/ is missing
+ucimlrepo==0.0.7
