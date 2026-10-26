@@ -2,8 +2,8 @@
 
 **ML Assignment 2 · M.Tech (AIML) · 2026aj05628**
 
-- **Live Streamlit app:** `<add Streamlit Community Cloud URL after deployment>`
-- **GitHub repository:** `<add GitHub repository URL>`
+- **Live Streamlit app:** <https://2026aj05628mlassignment-2.streamlit.app/>
+- **GitHub repository:** <https://github.com/Monish-Bits/2026aj05628_ML_Assignment-2>
 
 ---
 
@@ -46,7 +46,7 @@ Five classifiers are trained on the same data and compared on six evaluation met
 
 ## c. GitHub repository link
 
-`<add GitHub repository URL>`
+<https://github.com/Monish-Bits/2026aj05628_ML_Assignment-2>
 
 ```
 ├── .streamlit/config.toml     # app theme
